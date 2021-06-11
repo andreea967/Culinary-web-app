@@ -1,0 +1,258 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Karma", sans-serif;
+}
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+nav.menu{
+    padding:10px;
+    display:none;
+    z-index:1;
+    height: 50%;
+    top: 0;
+    left: 0;
+    width:10%;
+    min-width:200px;
+    position: fixed;
+    background-color: rgb(250, 225, 195, .7);
+    overflow-x: hidden;
+    padding-top:60px;
+    transition: 0.5s;
+    padding-left: 5px;
+}
+
+.menu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(122, 81, 81);
+    transition: 0.3;
+    opacity: 100%;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+ul#sideBar{
+    min-width: 200px;
+    list-style: none;
+    padding-top: 20px;
+
+}
+
+ul#sideBar li{
+    display: block;
+    padding: 5px;
+}
+
+
+.top-menu{
+    margin:auto;
+}
+
+div.menu-button:hover{
+
+    background-color: rgb(210, 240, 196);
+}
+a.menu-button:hover{
+    background-color: rgb(238, 218, 175);
+}
+div.menu-button{
+    padding: 10px;
+    max-width: 20px;
+    text-align: center;
+}
+div.top-menu{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(177, 219, 157);
+    
+
+}
+
+.menu-button, .title, .button-logout{
+    display: inline-block;
+    cursor: pointer;
+}
+.button-logout{
+    padding-left: 500px;
+
+}
+.logout{
+    cursor: pointer;
+}
+.logout{
+    background-color: rgba(87, 114, 94, 0.774);
+    border: 2px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logout:hover{
+    background-color: rgba(193, 243, 165, 0.795);
+}
+div.title{
+    text-align: center;
+    padding-left: 550px;
+}
+.main{
+    margin: 0;
+    padding: 0;
+    background-image: url("/background.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+  
+  /* Background image doesn't tile */
+    background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+}
+
+#footer{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(145, 207, 171);
+}
+.main-content{
+    padding: 50px;
+    max-width:1200px;
+    margin-left: 270px;
+    margin-right: 250px;
+}
+.food1{
+    padding: 30px;
+    background-color: rgb(247, 226, 202);
+}
+.food1:hover, .food2:hover, .food3:hover, .food4:hover, .food5:hover, .food6:hover, .food7:hover, .food8:hover{
+    /*background-color: rgb(235, 195, 147);*/
+    background-color: rgb(210, 240, 196);
+}
+
+.food1, .food2{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+.food3, .food4{
+    padding: 30px;
+    background-color: rgb(247, 226, 202);
+    display: inline-block;
+}
+.food5, .food6{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+.food7, .food8{
+    padding: 30px;
+    background-color:rgb(247, 226, 202);
+    display: inline-block;
+}
+a.names{
+    text-decoration: none;
+    color: black;
+}
+.names:hover{
+    color: rgb(173, 105, 3);
+    
+}
+.recepies-page{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.upper{
+    background-color: rgb(255, 255, 255, .6);
+    padding: 100px;
+}
+.list{
+    background-color: rgba(200, 241, 192, 0.6);
+    padding: 50px;
+}
+.login{
+    background-color: rgb(255, 255, 255, .6);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 273px;
+}
+.input{
+    border: none;
+    border-bottom: 3px solid rgba(170, 207, 145, 0.7);
+    padding: 10px;
+    width: 100%;
+}
+#button-log{
+    border: 2px;
+    background-color: rgb(117, 170, 117, .6);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+#button-log:hover {
+    box-shadow: 0 13px 17px 0 rgba(0,0,0,0.25), 0 18px 51px 0 rgba(0,0,0,0.20);
+}
+#button-log:hover{
+    background-color: rgba(211, 231, 140, 0.801);
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+    opacity: 95%;
+}
+.ajax{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.527);
+
+}
+.show{
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(241, 211, 111, 0.712);
+    border: 3px;
+    border-radius: 5px;;
+}
+.show:hover{
+    background-color: rgba(181, 236, 159, 0.726);
+}
+#a-ajax{
+    border: 3px;
+    
+}
+.comments{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.527);
+
+}
+
+#comentariu{
+    background-color: rgba(213, 235, 204, 0.685);
+    border: none;
+    border-radius: 5px;
+}
